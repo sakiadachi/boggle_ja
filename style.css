@@ -1,0 +1,21 @@
+.container {
+  padding: 1rem;
+}
+
+.selected {
+  text-align: center;
+}
+
+.boggle-grid {
+  max-width: 60vh;
+  max-height: 60vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0px;
+
+  & input {
+    aspect-ratio: 1 / 1;
+  }
+}
